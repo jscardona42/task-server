@@ -37,13 +37,17 @@
    ```
    php artisan key:generate
    ```
+8. Genera el secret de JWT:
+   ```
+   php artisan jwt:secret
+   ```
 
-8. Ejecuta las migraciones:
+9. Ejecuta las migraciones:
    ```
    php artisan migrate
    ```
 
-9. Ejecuta los scripts de la base de datos:
+10. Ejecuta los scripts de la base de datos:
    Navega a la carpeta `database/scripts/` y ejecuta los scripts en el orden en que se encuentran, uno por uno.
 
 ## Configuración
